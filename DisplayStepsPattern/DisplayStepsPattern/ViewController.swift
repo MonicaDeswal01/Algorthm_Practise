@@ -9,8 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
     /**
-       Write a function that accepts a positive number N.
-       The function should console log a step shape
+     Write a function that accepts a positive number N.
+     The function should console log a step shape
      With N levels using  the # characcter. Make sure that steps has space on the right hand side
      Example
      Steps(2)
@@ -31,8 +31,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.createPatternWith(val: 5)
+       // self.createPatternWith(val: 5)
         // Do any additional setup after loading the view.
+
+        self.recursivePrintPatter(val: 3)
+
     }
 
     func createPatternWith(val: Int) {
@@ -47,6 +50,27 @@ class ViewController: UIViewController {
             }
             print()
         }
+    }
+
+    func recursivePrintPatter(val: Int, numberOfRow: Int = 0, stairs: String = "") {
+        if val == numberOfRow {
+            return
+        }
+
+        if val == stairs.count {
+            print(stairs)
+            let updatedRow = numberOfRow + 1
+            return recursivePrintPatter(val: val, numberOfRow: updatedRow)
+        }
+
+        var newUpdatedString = stairs
+        if stairs.count <= numberOfRow {
+            newUpdatedString += "#"
+        } else {
+            newUpdatedString += "."
+        }
+
+        return recursivePrintPatter(val: val, numberOfRow: numberOfRow, stairs: newUpdatedString)
     }
 
 
