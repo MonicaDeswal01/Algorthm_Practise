@@ -48,21 +48,21 @@ Examples
         return finalString
     }
 
-    func capitalizeIMplemetation3(str: String) -> String {
-        for val in str {
-          print(val)
-        }
-        var finalArray = [String]()
-        let splitArray = str.split(separator: " ")
-        for str in splitArray {
-            finalArray.append(str.capitalized)
-        }
 
-        let finalString = finalArray.joined(separator: " ")
+    //Implement the logic when the char-1 is equal to " " then capitalise that character
+    func capitalizeIMplemetation3(str: String){
 
-        let joinArray = finalArray.reduce("") { $0 + " " + $1 }
-        print(joinArray)
-        return finalString
+//        var finalArray = [String]()
+//        let splitArray = str.split(separator: " ")
+//        for str in splitArray {
+//            finalArray.append(str.capitalized)
+//        }
+//
+//        let finalString = finalArray.joined(separator: " ")
+//
+//        let joinArray = finalArray.reduce("") { $0 + " " + $1 }
+//        print(joinArray)
+//        return finalString
     }
 
 
