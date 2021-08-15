@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBCEF90126C963BA00F9B38C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCEF90026C963BA00F9B38C /* AppDelegate.swift */; };
+		FBCEF90326C963BA00F9B38C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCEF90226C963BA00F9B38C /* SceneDelegate.swift */; };
+		FBCEF90526C963BA00F9B38C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCEF90426C963BA00F9B38C /* ViewController.swift */; };
+		FBCEF90826C963BA00F9B38C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBCEF90626C963BA00F9B38C /* Main.storyboard */; };
+		FBCEF90A26C963BC00F9B38C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBCEF90926C963BC00F9B38C /* Assets.xcassets */; };
+		FBCEF90D26C963BC00F9B38C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBCEF90B26C963BC00F9B38C /* LaunchScreen.storyboard */; };
+		FBCEF91826C963BC00F9B38C /* FindVowelInStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCEF91726C963BC00F9B38C /* FindVowelInStringTests.swift */; };
+		FBCEF92326C963BC00F9B38C /* FindVowelInStringUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCEF92226C963BC00F9B38C /* FindVowelInStringUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBCEF91426C963BC00F9B38C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBCEF8F526C963BA00F9B38C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBCEF8FC26C963BA00F9B38C;
+			remoteInfo = FindVowelInString;
+		};
+		FBCEF91F26C963BC00F9B38C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBCEF8F526C963BA00F9B38C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBCEF8FC26C963BA00F9B38C;
+			remoteInfo = FindVowelInString;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBCEF8FD26C963BA00F9B38C /* FindVowelInString.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindVowelInString.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBCEF90026C963BA00F9B38C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBCEF90226C963BA00F9B38C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FBCEF90426C963BA00F9B38C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBCEF90726C963BA00F9B38C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBCEF90926C963BC00F9B38C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBCEF90C26C963BC00F9B38C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBCEF90E26C963BC00F9B38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBCEF91326C963BC00F9B38C /* FindVowelInStringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindVowelInStringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBCEF91726C963BC00F9B38C /* FindVowelInStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindVowelInStringTests.swift; sourceTree = "<group>"; };
+		FBCEF91926C963BC00F9B38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBCEF91E26C963BC00F9B38C /* FindVowelInStringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindVowelInStringUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBCEF92226C963BC00F9B38C /* FindVowelInStringUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindVowelInStringUITests.swift; sourceTree = "<group>"; };
+		FBCEF92426C963BC00F9B38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBCEF8FA26C963BA00F9B38C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBCEF91026C963BC00F9B38C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBCEF91B26C963BC00F9B38C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBCEF8F426C963BA00F9B38C = {
+			isa = PBXGroup;
+			children = (
+				FBCEF8FF26C963BA00F9B38C /* FindVowelInString */,
+				FBCEF91626C963BC00F9B38C /* FindVowelInStringTests */,
+				FBCEF92126C963BC00F9B38C /* FindVowelInStringUITests */,
+				FBCEF8FE26C963BA00F9B38C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBCEF8FE26C963BA00F9B38C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBCEF8FD26C963BA00F9B38C /* FindVowelInString.app */,
+				FBCEF91326C963BC00F9B38C /* FindVowelInStringTests.xctest */,
+				FBCEF91E26C963BC00F9B38C /* FindVowelInStringUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBCEF8FF26C963BA00F9B38C /* FindVowelInString */ = {
+			isa = PBXGroup;
+			children = (
+				FBCEF90026C963BA00F9B38C /* AppDelegate.swift */,
+				FBCEF90226C963BA00F9B38C /* SceneDelegate.swift */,
+				FBCEF90426C963BA00F9B38C /* ViewController.swift */,
+				FBCEF90626C963BA00F9B38C /* Main.storyboard */,
+				FBCEF90926C963BC00F9B38C /* Assets.xcassets */,
+				FBCEF90B26C963BC00F9B38C /* LaunchScreen.storyboard */,
+				FBCEF90E26C963BC00F9B38C /* Info.plist */,
+			);
+			path = FindVowelInString;
+			sourceTree = "<group>";
+		};
+		FBCEF91626C963BC00F9B38C /* FindVowelInStringTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBCEF91726C963BC00F9B38C /* FindVowelInStringTests.swift */,
+				FBCEF91926C963BC00F9B38C /* Info.plist */,
+			);
+			path = FindVowelInStringTests;
+			sourceTree = "<group>";
+		};
+		FBCEF92126C963BC00F9B38C /* FindVowelInStringUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBCEF92226C963BC00F9B38C /* FindVowelInStringUITests.swift */,
+				FBCEF92426C963BC00F9B38C /* Info.plist */,
+			);
+			path = FindVowelInStringUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBCEF8FC26C963BA00F9B38C /* FindVowelInString */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBCEF92726C963BC00F9B38C /* Build configuration list for PBXNativeTarget "FindVowelInString" */;
+			buildPhases = (
+				FBCEF8F926C963BA00F9B38C /* Sources */,
+				FBCEF8FA26C963BA00F9B38C /* Frameworks */,
+				FBCEF8FB26C963BA00F9B38C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindVowelInString;
+			productName = FindVowelInString;
+			productReference = FBCEF8FD26C963BA00F9B38C /* FindVowelInString.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBCEF91226C963BC00F9B38C /* FindVowelInStringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBCEF92A26C963BC00F9B38C /* Build configuration list for PBXNativeTarget "FindVowelInStringTests" */;
+			buildPhases = (
+				FBCEF90F26C963BC00F9B38C /* Sources */,
+				FBCEF91026C963BC00F9B38C /* Frameworks */,
+				FBCEF91126C963BC00F9B38C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBCEF91526C963BC00F9B38C /* PBXTargetDependency */,
+			);
+			name = FindVowelInStringTests;
+			productName = FindVowelInStringTests;
+			productReference = FBCEF91326C963BC00F9B38C /* FindVowelInStringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBCEF91D26C963BC00F9B38C /* FindVowelInStringUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBCEF92D26C963BC00F9B38C /* Build configuration list for PBXNativeTarget "FindVowelInStringUITests" */;
+			buildPhases = (
+				FBCEF91A26C963BC00F9B38C /* Sources */,
+				FBCEF91B26C963BC00F9B38C /* Frameworks */,
+				FBCEF91C26C963BC00F9B38C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBCEF92026C963BC00F9B38C /* PBXTargetDependency */,
+			);
+			name = FindVowelInStringUITests;
+			productName = FindVowelInStringUITests;
+			productReference = FBCEF91E26C963BC00F9B38C /* FindVowelInStringUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBCEF8F526C963BA00F9B38C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FBCEF8FC26C963BA00F9B38C = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					FBCEF91226C963BC00F9B38C = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = FBCEF8FC26C963BA00F9B38C;
+					};
+					FBCEF91D26C963BC00F9B38C = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = FBCEF8FC26C963BA00F9B38C;
+					};
+				};
+			};
+			buildConfigurationList = FBCEF8F826C963BA00F9B38C /* Build configuration list for PBXProject "FindVowelInString" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBCEF8F426C963BA00F9B38C;
+			productRefGroup = FBCEF8FE26C963BA00F9B38C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBCEF8FC26C963BA00F9B38C /* FindVowelInString */,
+				FBCEF91226C963BC00F9B38C /* FindVowelInStringTests */,
+				FBCEF91D26C963BC00F9B38C /* FindVowelInStringUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBCEF8FB26C963BA00F9B38C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBCEF90D26C963BC00F9B38C /* LaunchScreen.storyboard in Resources */,
+				FBCEF90A26C963BC00F9B38C /* Assets.xcassets in Resources */,
+				FBCEF90826C963BA00F9B38C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBCEF91126C963BC00F9B38C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBCEF91C26C963BC00F9B38C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBCEF8F926C963BA00F9B38C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBCEF90526C963BA00F9B38C /* ViewController.swift in Sources */,
+				FBCEF90126C963BA00F9B38C /* AppDelegate.swift in Sources */,
+				FBCEF90326C963BA00F9B38C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBCEF90F26C963BC00F9B38C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBCEF91826C963BC00F9B38C /* FindVowelInStringTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBCEF91A26C963BC00F9B38C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBCEF92326C963BC00F9B38C /* FindVowelInStringUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBCEF91526C963BC00F9B38C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBCEF8FC26C963BA00F9B38C /* FindVowelInString */;
+			targetProxy = FBCEF91426C963BC00F9B38C /* PBXContainerItemProxy */;
+		};
+		FBCEF92026C963BC00F9B38C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBCEF8FC26C963BA00F9B38C /* FindVowelInString */;
+			targetProxy = FBCEF91F26C963BC00F9B38C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBCEF90626C963BA00F9B38C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBCEF90726C963BA00F9B38C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBCEF90B26C963BC00F9B38C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBCEF90C26C963BC00F9B38C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBCEF92526C963BC00F9B38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBCEF92626C963BC00F9B38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBCEF92826C963BC00F9B38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3G99VS84K;
+				INFOPLIST_FILE = FindVowelInString/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.interview.FindVowelInString;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBCEF92926C963BC00F9B38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3G99VS84K;
+				INFOPLIST_FILE = FindVowelInString/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.interview.FindVowelInString;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FBCEF92B26C963BC00F9B38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3G99VS84K;
+				INFOPLIST_FILE = FindVowelInStringTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.interview.FindVowelInStringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindVowelInString.app/FindVowelInString";
+			};
+			name = Debug;
+		};
+		FBCEF92C26C963BC00F9B38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3G99VS84K;
+				INFOPLIST_FILE = FindVowelInStringTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.interview.FindVowelInStringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindVowelInString.app/FindVowelInString";
+			};
+			name = Release;
+		};
+		FBCEF92E26C963BC00F9B38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3G99VS84K;
+				INFOPLIST_FILE = FindVowelInStringUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.interview.FindVowelInStringUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindVowelInString;
+			};
+			name = Debug;
+		};
+		FBCEF92F26C963BC00F9B38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3G99VS84K;
+				INFOPLIST_FILE = FindVowelInStringUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.interview.FindVowelInStringUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindVowelInString;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBCEF8F826C963BA00F9B38C /* Build configuration list for PBXProject "FindVowelInString" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBCEF92526C963BC00F9B38C /* Debug */,
+				FBCEF92626C963BC00F9B38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBCEF92726C963BC00F9B38C /* Build configuration list for PBXNativeTarget "FindVowelInString" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBCEF92826C963BC00F9B38C /* Debug */,
+				FBCEF92926C963BC00F9B38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBCEF92A26C963BC00F9B38C /* Build configuration list for PBXNativeTarget "FindVowelInStringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBCEF92B26C963BC00F9B38C /* Debug */,
+				FBCEF92C26C963BC00F9B38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBCEF92D26C963BC00F9B38C /* Build configuration list for PBXNativeTarget "FindVowelInStringUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBCEF92E26C963BC00F9B38C /* Debug */,
+				FBCEF92F26C963BC00F9B38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBCEF8F526C963BA00F9B38C /* Project object */;
+}
