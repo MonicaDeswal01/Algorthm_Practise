@@ -36,9 +36,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-       // self.generateThePyramidPattern(n: 3)
+        self.generateThePyramidPattern(n: 3)
 
-        self.generateThePyramidPatternWithRecursiveApproachWith(5)
+       // self.generateThePyramidPatternWithRecursiveApproachWith(5)
     }
 
         func generateThePyramidPattern(n: Int) {
@@ -46,7 +46,7 @@ class ViewController: UIViewController {
             let midPoint = Int((2*n - 1)/2)
             for i in 0...n-1 {
                 var pyramidString = ""
-                for j in 0...2*n - 1 {
+                for j in 0..<2*n-1 {
                     if midPoint - i <= j && midPoint + i >= j {
                         pyramidString += "#"
                     } else {
