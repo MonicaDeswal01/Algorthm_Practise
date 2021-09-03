@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FBCA255526E1E11A005143BD /* Weave.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCA255426E1E11A005143BD /* Weave.swift */; };
 		FBCD6B5126E0FF03007B84DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCD6B5026E0FF03007B84DB /* AppDelegate.swift */; };
 		FBCD6B5326E0FF03007B84DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCD6B5226E0FF03007B84DB /* SceneDelegate.swift */; };
 		FBCD6B5526E0FF03007B84DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCD6B5426E0FF03007B84DB /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FBCA255426E1E11A005143BD /* Weave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weave.swift; sourceTree = "<group>"; };
 		FBCD6B4D26E0FF03007B84DB /* QueueImplementation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QueueImplementation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBCD6B5026E0FF03007B84DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBCD6B5226E0FF03007B84DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FBCA255226E1E0EB005143BD /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				FBCD6B8026E0FF23007B84DB /* QueueImplementation.swift */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		FBCA255326E1E100005143BD /* WeaveInQueue */ = {
+			isa = PBXGroup;
+			children = (
+				FBCA255426E1E11A005143BD /* Weave.swift */,
+			);
+			path = WeaveInQueue;
+			sourceTree = "<group>";
+		};
 		FBCD6B4426E0FF03007B84DB = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +119,8 @@
 		FBCD6B4F26E0FF03007B84DB /* QueueImplementation */ = {
 			isa = PBXGroup;
 			children = (
+				FBCA255326E1E100005143BD /* WeaveInQueue */,
+				FBCA255226E1E0EB005143BD /* Queue */,
 				FBCD6B5026E0FF03007B84DB /* AppDelegate.swift */,
 				FBCD6B5226E0FF03007B84DB /* SceneDelegate.swift */,
 				FBCD6B5426E0FF03007B84DB /* ViewController.swift */,
@@ -108,7 +128,6 @@
 				FBCD6B5926E0FF06007B84DB /* Assets.xcassets */,
 				FBCD6B5B26E0FF06007B84DB /* LaunchScreen.storyboard */,
 				FBCD6B5E26E0FF06007B84DB /* Info.plist */,
-				FBCD6B8026E0FF23007B84DB /* QueueImplementation.swift */,
 			);
 			path = QueueImplementation;
 			sourceTree = "<group>";
@@ -265,6 +284,7 @@
 				FBCD6B5126E0FF03007B84DB /* AppDelegate.swift in Sources */,
 				FBCD6B5326E0FF03007B84DB /* SceneDelegate.swift in Sources */,
 				FBCD6B8126E0FF23007B84DB /* QueueImplementation.swift in Sources */,
+				FBCA255526E1E11A005143BD /* Weave.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
